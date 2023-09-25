@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" >
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" >
         <link rel="stylesheet" href="./css/styles.css" >
+        <link rel="stylesheet" href="./css/ingex.css">
     </head>
 
 
@@ -27,6 +28,11 @@
                         <li><a class="link menu-link" href="">Contacts</a></li>
                     </ul>
                 </nav>
+                <button class="menu-button" type="button">
+                    <svg class="burger-icon" width="24" height="24" aria-label="menu icon">
+                        <use href="./images/icons.svg#icon-burger"></use>
+                    </svg>
+                </button>
                 
                 <address class="address-list">
                     <ul class="list address">
@@ -44,9 +50,9 @@
 
 
 
-        <main>
+        <!--<main>
 
-            <section class="hero-section">
+             <section class="hero-section">
                 <div class="container">
                     <h1 class="text-hero">
                         Effective Solutions 
@@ -289,7 +295,7 @@
                                             </svg>
                                         </a>
                                     </li>
-                                 </ul>
+                                </ul>
                             </div>
                         </li>
                     </ul>
@@ -485,12 +491,12 @@
                     </form>
                 </div>
             </div>
-        </footer>
+        </footer> -->
 
 
         <!--------- BACKDROP WITH MODAL WINDOW -------->
 
-        <div class="backdrop is-open">
+        <!-- <div class="backdrop is-open">
             <div class="modal">
 
                 <button class="close-btn" type="button">
@@ -566,8 +572,70 @@
 
                 </form>
             </div>
-        </div>
+        </div> -->
 
+
+
+        <div class="menu-mobile is-open">
+        
+            <button class="close-btn-menu" type="button">
+                <svg class="close-btn-icon" width="8" height="8" aria-label="menu close icon">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+
+            <nav class="page-nav-mobile">
+                <ul class="list menu-list-mobile">
+                    <li><a class="link menu-link-mobile first-link-mobile" href="./index.html">Studio</a></li>
+                    <li><a class="link menu-link-mobile" href="">Portfolio</a></li>
+                    <li><a class="link menu-link-mobile" href="">Contacts</a></li>
+                </ul>
+            </nav>
+    
+            <address class="address-list-mobile">
+                <ul class="list address-mobile">
+                    <li>
+                        <a class="link address-link-mobile tel-mobile" href="tel:+110001111111">+11 (000) 111-11-11</a> <br >
+                    </li>
+                    <li>
+                        <a class="link address-link-mobile" href="mailto:info@devstudio.com">info@devstudio.com</a> 
+                    </li>
+                    
+                </ul>
+            </address>
+        
+
+            <ul class="social-list-mobile list">
+                <li class="social-list-item-mobile">
+                    <a class="social-list-link-mobile" href="">
+                        <svg class="social-list-icon-mobile" width="24" height="24" aria-label="instagram icon">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-list-item-mobile">
+                    <a class="social-list-link-mobile" href="">
+                        <svg class="social-list-icon-mobile" width="24" height="24" aria-label="twitter icon">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-list-item-mobile">
+                    <a class="social-list-link-mobile" href="">
+                        <svg class="social-list-icon-mobile" width="24" height="24" aria-label="facebook icon">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-list-item-mobile">
+                    <a class="social-list-link-mobile" href="">
+                        <svg class="social-list-icon-mobile" width="24" height="24" aria-label="linkedin icon">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
 
 
 
