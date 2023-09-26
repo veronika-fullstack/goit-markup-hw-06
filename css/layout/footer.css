@@ -159,7 +159,7 @@
     }
 
     .footer-text {
-        min-width: 264px;
+        max-width: 264px;
     }
 
     .subscribe-form {
@@ -173,10 +173,6 @@
     }
     
     .footer-logo-container .footer-logo {
-        justify-content: baseline;
-    }
-
-    .alternative-p {
         justify-content: baseline;
     }
 
@@ -220,8 +216,18 @@
         margin-right: 80px;
     }
 
+    .alternative-p{
+        margin-top: 0;
+    }
+
     .subscribe-form {
+        display: flex;
+        flex-direction: row;
         flex-wrap: nowrap;
         gap: 24px;
+    }
+
+    .subscribe-form-input{
+        margin: 0;
     }
 }
