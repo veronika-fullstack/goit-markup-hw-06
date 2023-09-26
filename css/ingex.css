@@ -8,6 +8,16 @@
 
 /* L A Y O U T */
 @import "./layout/header.css";
-@import "./layout/footer.css";
+
 @import "./layout/hero-section.css";
 
+@import "./layout/benefits-section.css";
+
+@import "./layout/team-section.css";
+
+@import "./layout/portfolio-section.css";
+
+@import "./layout/footer.css";
+
+
+@import "./layout/modal-window.css";

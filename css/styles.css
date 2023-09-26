@@ -13,98 +13,13 @@
 
 /* ========= B E N E F I T S   S E C T I O N =========*/
 
-/* .benefits-section{
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
 
-.benefits {
-    display: flex;
-    gap: 24px;
-}
-
-
-
-.benefits-list-item{
-    flex-basis: calc((100% - 72px) / 4);
-}
-
-.benefits-title{
-    margin-bottom: 8px;
-}
-
-.icon-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 264px;
-    height: 112px;
-    border-radius: 4px;
-    border: 1px solid #8E8F99;
-    background: #F4F4FD;
-    margin-bottom: 8px;
-} */
 
 
 
 /* ============= T E A M   S E C T I O N =============*/
 
-/* .team-title{
-    margin-bottom: 72px;
-}
-.team{
-    display: flex;
-    gap: 24px;
-}
-.team-section {
-    background: #F4F4FD;
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-.card {
-    background-color: #FFFFFF;
-    flex-basis: calc((100% - 72px)/4);
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
-.card-text-container{
-    padding-top: 32px;
-    padding-bottom: 32px;
-    text-align: center;
-}
-.name{
-    margin-bottom: 8px;
-}
 
-.social-list-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #4D5AE5;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-list-link:hover,
-.social-list-link:focus{
-    background-color: #404BBF;
-}
-
-.social-list {
-    display: flex;
-    gap: 24px;
-    justify-content: center;
-    margin-top: 8px;
-}
-
-.social-list-icon{
-    fill: #F4F4FD;
-} */
 
 
 /* ======== P O R T F O L I O   S E C T I O N ========*/
