@@ -23,6 +23,8 @@
     }
 
     .menu-mobile {
+        display: flex;
+        flex-direction: column;
         position: fixed;
         z-index: 9999999;
         left: 0;
@@ -74,10 +76,15 @@
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
+    .mobile-nav-address-wrapper{
+        margin-top: auto;
+    
+    }
+
+    
     .page-nav-mobile {
         margin-top: 72px;
     }
-
 
     .menu-list-mobile {
         display: flex;
@@ -86,7 +93,6 @@
     }
 
     .address-list-mobile {
-        margin-top: 168px;
         margin-bottom: 48px;
     }
 

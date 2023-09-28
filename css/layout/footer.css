@@ -140,10 +140,7 @@
 
 
 @media screen and (min-width: 768px) {
-    .page-footer {
-        padding-left: 92px;
-        padding-right: 92px;
-    }
+    
 
     .footer-container {
         flex-direction: row;
@@ -183,6 +180,7 @@
     .alternative-p {
         display: block;
         justify-content: baseline;
+        margin-top: 0;
     }
     
     .social-list-footer {
@@ -197,8 +195,6 @@
     .page-footer {
         padding-top: 102px;
         padding-bottom: 100px;
-        padding-left: 0px;
-        padding-right: 0px;
     }
     
     .footer-container {
@@ -217,7 +213,7 @@
     }
 
     .alternative-p{
-        margin-top: 0;
+
     }
 
     .subscribe-form {
